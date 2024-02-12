@@ -27,3 +27,13 @@ myList.append("Green")
 newList.append("Eugene")
 print(newList)
 print(myList)
+print(len(newList))
+myList.reverse()
+
+# Tuples are static, can't add or remove elements
+myTuple = ("Black", "Blue", "Grey")
+
+# Differenes of Tuple and Lists
+print(dir(myList))
+print("Tuple Methods")
+print(dir(myTuple))
