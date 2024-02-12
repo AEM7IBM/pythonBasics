@@ -23,3 +23,7 @@ print(x == 16)
 
 myList = ["Black", "Blue", "Grey"]
 newList = list((firstName, lastName, age))
+myList.append("Green")
+newList.append("Eugene")
+print(newList)
+print(myList)
