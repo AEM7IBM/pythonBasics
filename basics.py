@@ -33,7 +33,15 @@ myList.reverse()
 # Tuples are static, can't add or remove elements
 myTuple = ("Black", "Blue", "Grey")
 
-# Differenes of Tuple and Lists
+# No duplicates allowed
+mySet = {"Black", "Blue", "Grey"}
+
+# Dictionaries
+newDict = {"color1": "Red", "color2": "Blue", "color3": "Grey"}
+
+# Differenes of Tuple, Set and Lists
 print(dir(myList))
 print("Tuple Methods")
 print(dir(myTuple))
+print("Set Methods")
+print(dir(mySet))
