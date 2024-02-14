@@ -1,6 +1,6 @@
 import csv
 
-newRec = ["1005", "GV", "Development", "Technology"]
+newRec = ["1005", "GV", "Development", "IT"]
 
 f = open("example.csv", "a")
 
